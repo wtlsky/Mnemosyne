@@ -1,0 +1,67 @@
+body {
+    color: #24AEE4;
+    padding-top: 0;
+    padding-bottom: 50px;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    min-width: 400px;
+}
+img{
+    width: 20px;
+    height: 20px;
+}
+a{
+    display: block;
+    float: right;
+    padding: 5px;
+
+}
+
+p {
+    text-indent: 2em;
+}
+
+h1 {
+    margin-top: 20%;
+}
+
+#realFile {
+    display: none;
+}
+
+mark {
+    font-size: 1.5em;
+}
+
+h2 {
+    color: #24AEE4;
+    text-align: center;
+}
+
+.input-group {
+    margin-top: 25px;
+}
+.cobtn{
+    background: #24AEE4;
+    color: #fff;
+}
+.cobtn:hover{
+    color: #fff;
+}
+.cobtn:active{
+    color: #fff;
+}
+#result {
+    margin:20px auto 0 auto;
+    text-align: center;
+    border: 1px dotted #24AEE4;
+    background: rgba(36, 174, 228, 0.6);
+    padding: 7px 10px;
+    color: #fff;
+    font-size:18px;
+    border-radius:4px;
+    display: none;
+}
+#fileName{
+    cursor: pointer;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Mnemosyne</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<a href="help.html"><img src="./img/help.png" alt="help"></a>
+<div class="container-fluid">
+    <div class="col-lg-4 col-lg-offset-4 col-md-5 col-md-offset-3 col-sm-6 col-sm-offset-3">
+        <h2>Mnemosyne</h2>
+        <input type="file" id="realFile">
+        <div class="input-group input-group">
+            <span class="input-group-addon"><label for="uid">用户账号</label></span>
+            <input class="form-control" type="text" id="uid" placeholder="Account">
+        </div>
+        <div class="input-group input-group">
+            <span class="input-group-addon"><label for="use">账号用途</label></span>
+            <input class="form-control" type="text" id="use" placeholder="use">
+        </div>
+        <div class="input-group input-group">
+            <span class="input-group-addon"><label for="len">密码长度</label></span>
+            <select class="form-control" id="len">
+                <option value="18">18</option>
+                <option value="17">17</option>
+                <option value="16">16</option>
+                <option value="15">15</option>
+                <option value="14">14</option>
+                <option value="13">13</option>
+                <option value="12">12</option>
+                <option value="11">11</option>
+                <option value="10">10</option>
+                <option value="9">09</option>
+                <option value="8">08</option>
+                <option value="7">07</option>
+                <option value="6">06</option>
+            </select>
+        </div>
+        <div class="input-group input-group">
+            <span class="input-group-addon"><label for="realFile">钥匙文件</label></span>
+            <input class="form-control" type="text" id="fileName" placeholder="key file">
+        </div>
+        <div class="" id="result"></div>
+    </div>
+</div>
+<script src="./js/jquery-2.1.4.min.js"></script>
+<script src="./js/bootstrap.js"></script>
+<script src="./js/spark-md5.js"></script>
+<script src="./js/web.js"></script>
+</body>
+</html>
