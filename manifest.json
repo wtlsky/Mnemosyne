@@ -1,5 +1,4 @@
 {
-	
 	"name": "Mnemosyne",
 	"version": "1.0.0",
 	
@@ -10,7 +9,6 @@
 		"128": "./img/128.png"
 	},
 	
-	
 	"browser_action": {
 		"default_icon": { 
 			"19": "./img/19.png",
@@ -19,6 +17,7 @@
 		"default_title": "Mnemosyne",
 		"default_popup": "index.html"
 	},
+	"homepage_url":"https://github.com/wtlsky/Mnemosyne",
 	
 	"background": {
 		"scripts" : ["/js/jquery-2.1.4.min.js", "/js/web.js", "/js/spark-md5.js", "/js/bootstrap.js"]
@@ -28,7 +27,6 @@
 		"http://*/*",
 		"https://*/*"
 	],
-	
 
 	"manifest_version": 2
 }
